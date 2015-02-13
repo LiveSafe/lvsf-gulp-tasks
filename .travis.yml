@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '0.12'
+- '0.10'
+notifications:
+  flowdock:
+    secure: "TlGt8s08SJqtqWncYm4HPeAU9fjYgbPOsgiaPIWmkaEA31+lO83S/WBwJIn4mzbh6c1wO+gDse1KzUd5KrP/SK9DGx1VeG5adiZhrNrPX+YK0Djz58vxGY5P5lZNvatTRWRMQ8nrptcIMQ5t4JEHuyIL6AsVBk9USlSyCj70Bw4="
+deploy:
+  provider: npm
+  email: mc.s.pain.how.er+npm@gmail.com
+  api_key: 
+    secure: "NwbXDVzgflQpcOTeBJlN/ktQeRz99pXdrnRVj9ddmf73LfoWoCR9Sj6dyVNHW53gZhLkDUT8annOxtQ8UtgknoDbonlzAibJR/emkLPMfzYTDp1H3wsbTk/e58b+Nucqj1mwJwfCbQIx5Oc6HuB25AA4OXVM0TBON16L9kpcnh4="
+  on:
+    tags: true
+    all_branches: true
+    repo: LiveSafe/lsvsf-gulp-tasks

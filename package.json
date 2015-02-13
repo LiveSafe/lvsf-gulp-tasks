@@ -1,0 +1,28 @@
+{
+  "name": "lvsf-gulp-tasks",
+  "version": "1.0.0",
+  "description": "Some common tasks for gulp",
+  "main": "lib/lvsf-gulp-tasks.js",
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/livesafe/lvsf-gulp-tasks.git"
+  },
+  "author": "Spain <spain@livesafemobile.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/livesafe/lvsf-gulp-tasks/issues"
+  },
+  "homepage": "https://github.com/livesafe/lvsf-gulp-tasks",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.2",
+    "jscs": "^1.11.3",
+    "jshint": "^2.6.0",
+    "jshint-stylish": "^1.0.0",
+    "ls-default-configs": "^2.3.0",
+    "merge-stream": "^0.1.7"
+  }
+}
