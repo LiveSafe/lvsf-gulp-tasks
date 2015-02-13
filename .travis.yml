@@ -13,4 +13,4 @@ deploy:
   on:
     tags: true
     all_branches: true
-    repo: LiveSafe/lsvsf-gulp-tasks
+    repo: LiveSafe/lvsf-gulp-tasks

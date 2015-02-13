@@ -1,6 +1,6 @@
 {
   "name": "lvsf-gulp-tasks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some common tasks for gulp",
   "main": "lib/lvsf-gulp-tasks.js",
   "scripts": {
