@@ -1,6 +1,6 @@
 {
   "name": "lvsf-gulp-tasks",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Some common tasks for gulp",
   "main": "lib/lvsf-gulp-tasks.js",
   "scripts": {
@@ -18,11 +18,14 @@
   "homepage": "https://github.com/livesafe/lvsf-gulp-tasks",
   "dependencies": {
     "gulp": "^3.8.11",
+    "gulp-jscs": "^1.4.0",
     "gulp-jshint": "^1.9.2",
+    "gulp-mocha": "^2.0.0",
     "jscs": "^1.11.3",
     "jshint": "^2.6.0",
     "jshint-stylish": "^1.0.0",
     "ls-default-configs": "^2.3.0",
-    "merge-stream": "^0.1.7"
+    "merge-stream": "^0.1.7",
+    "q-io": "^1.11.6"
   }
 }
